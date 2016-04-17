@@ -6,6 +6,8 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
+    color: #FFFFFF;
+
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -27,13 +29,14 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    color: #FFFFFF;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: #ffffff;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -115,7 +118,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: #FFFFFF;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
